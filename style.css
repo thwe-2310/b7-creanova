@@ -1,0 +1,78 @@
+/*resetting rules*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "PT Sans", serif;
+  background-color: #ffffff;
+}
+/*our-mentors section*/
+/*students-reviews section*/
+.our-mentors,
+.students-reviews {
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: var(--bs-heading-color);
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+.card {
+  border: 1px solid lightgray;
+  width: 350px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.card .card-img1 {
+  border: none;
+  max-width: 100%;
+}
+.card h5 {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: var(--bs-heading-color);
+  padding: 15px;
+}
+.card p {
+  font-size: 13px;
+  line-height: 1.5em;
+  padding: 0 15px 15px;
+  text-align: justify;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/*footer section*/
+footer {
+  border: 2px solid black;
+  margin: 0 auto;
+  background-color: #edebd7;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer h5 {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: var(--bs-heading-color);
+  padding: 15px;
+}
+footer p {
+  display: block;
+  font-size: 12px;
+}
